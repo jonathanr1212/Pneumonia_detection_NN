@@ -45,17 +45,19 @@ The confusion matrix on the validation set was able to detect 56.8% of the Pneum
 ![](images/res_val_cm.png)
 
 
-The accuracy of the model on the test set according to tensorflow's evaluate method was ~73.2%
+
 
 
 ## Evaluation
-The confusion matrix shows the results of the final Resnet50 model.
+The accuracy of the model on the test set according to tensorflow's evaluate method was ~73.2%
+
+The confusion matrix on the test data shows the results of the final Resnet50 model.
 
 ![](images/final_cm.png)
 
 
 
-The model was only able to detect ~36% of Pneumonia patients that had Pneumonia.
+The model was only able to detect ~36% of Pneumonia patients that had Pneumonia in the test set.
 
 
 ## Conclusion
