@@ -5,6 +5,8 @@ This project uses Neural Networks (NN) to make predictions on a binary classific
 ## Business Problem
 A hospital wants to utilize technology to help diagnose patients who have Pneumonia correctly. It will greatly increase the efficiency of hospitals who have many pneumonia patients and could potentially use this technology as a screening process to better help patients.
 
+![](images/download.jpg)
+ 
 
 ## Data Understanding
 The dataset was from Kaggle's chest xray dataset. It contained the following:
@@ -33,7 +35,17 @@ Test set: PNEUMONIA=390
 The data was modified due to the validation set data being extremely low. Images from the train dataset were moved into the validation dataset in the correct folders.
 
 ## Modeling
-The final chosen model was based on transfer learning from Resnet50. The model was pretrained and layers were added to further improve the model towards the data. The accuracy of the model according to tensorflow's evaluate method was ~73.2%
+The final chosen model was based on transfer learning from Resnet50. The model was pretrained and layers were added to further improve the model towards the data. The model ended with a Training Accuracy score of 92.3% and Validation Accuracy score of 91.8%
+
+![](images/t_v_eval.png)
+
+The confusion matrix on the validation set was able to detect 56.8% of the Pneumonia patients who had it.
+
+
+![](images/res_val_cm.png)
+
+
+The accuracy of the model on the test set according to tensorflow's evaluate method was ~73.2%
 
 
 ## Evaluation
