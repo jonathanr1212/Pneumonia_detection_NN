@@ -56,7 +56,7 @@ The final chosen model was based on transfer learning from Resnet152V2. The mode
 The confusion matrix on the validation set was able to detect 97.1% of the Pneumonia patients who had it.
 
 
-![](images/res_val_cm.png)
+![](images/val_cm.png)
 
 
 
