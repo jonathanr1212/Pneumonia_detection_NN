@@ -34,8 +34,9 @@ Validation set:
 * NORMAL=308
 
 
-Test set: PNEUMONIA=390
-          NORMAL=234
+Test set: 
+* PNEUMONIA=390
+* NORMAL=234
 
 The data was modified due to the validation set data being extremely limited. Images from the train dataset were moved into the validation dataset in the correct folders.
 
@@ -44,7 +45,7 @@ This is what an image histogram for a normal x-ray looks like:
 ![](images/norm_hist.png)
 
 
-This is what an image histogram for a normal x-ray looks like:
+This is what an image histogram for a pneumonia x-ray looks like:
 
 ![](images/pnu_hist.png)
 
